@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aromatica – Temukan Aroma Dirimu</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #e6f2ff;
+      color: #003366;
+    }
+
+    header {
+      background-color: #007acc;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background-color: #cce6ff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background-color: #005b99;
+      color: #fff;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+      background-color: #f0f8ff;
+    }
+
+    .products {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .product {
+      border: 1px solid #99c2ff;
+      border-radius: 8px;
+      padding: 20px;
+      width: 250px;
+      background-color: #ffffff;
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+
+    .benefits {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .benefit {
+      max-width: 200px;
+    }
+
+    .faq {
+      text-align: left;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .faq h3 {
+      color: #005b99;
+    }
+
+    .faq p {
+      margin-bottom: 20px;
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .contact-form button {
+      background-color: #005b99;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #007acc;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: white;
+    }
+
+    .testimoni {
+      font-style: italic;
+      color: #004080;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Aromatica</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#produk">Produk</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Temukan Aroma yang Mewakili Dirimu</h2>
+    <p>Koleksi parfum eksklusif yang dirancang untuk mengekspresikan kepribadianmu.</p>
+    <a href="#produk" class="btn">Jelajahi Parfum</a>
+  </section>
+
+  <section class="section" id="produk">
+    <h2>Parfum Terpopuler</h2>
+    <div class="products">
+      <div class="product">
+        <img src="Image/parfum1.jpeg" alt="Sauvage Dior">
+        <h3>Sauvage Dior</h3>
+        <p>Wewangian maskulin dan elegan yang tahan lama.</p>
+      </div>
+      <div class="product">
+        <img src="Image/parfum2.jpeg" alt="Moschino Toy Boy">
+        <h3>Moschino Toy Boy</h3>
+        <p>Aroma unik dan playful untuk pria berjiwa muda.</p>
+      </div>
+      <div class="product">
+        <img src="Image/parfum3.jpeg" alt="Evangelist Black Sakura">
+        <h3>Black Sakura</h3>
+        <p>Wangi bunga sakura dengan nuansa misterius dan romantis.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Mengapa Memilih Aromatica?</h2>
+    <div class="benefits">
+      <div class="benefit">
+        <h4>✨ Bahan Premium</h4>
+        <p>Hanya menggunakan bahan berkualitas tinggi.</p>
+      </div>
+      <div class="benefit">
+        <h4>🚚 Pengiriman Cepat</h4>
+        <p>Pesanan dikirim maksimal H+1 setelah pembayaran.</p>
+      </div>
+      <div class="benefit">
+        <h4>💝 Garansi Aroma</h4>
+        <p>Tidak cocok? Bisa tukar atau refund.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Apa Kata Mereka?</h2>
+    <p class="testimoni">"Aromanya bikin aku percaya diri seharian!" – Rina, Jakarta</p>
+  </section>
+
+  <section class="section faq">
+    <h2>Pertanyaan yang Sering Diajukan</h2>
+    <h3>Apakah parfum ini tahan lama?</h3>
+    <p>Ya! Parfum kami menggunakan bahan premium yang dapat bertahan hingga 8–12 jam.</p>
+
+    <h3>Apakah tersedia pengiriman ke seluruh Indonesia?</h3>
+    <p>Tentu! Kami melayani pengiriman ke seluruh wilayah Indonesia melalui kurir terpercaya.</p>
+
+    <h3>Bagaimana jika saya tidak cocok dengan aromanya?</h3>
+    <p>Kami menyediakan garansi tukar aroma atau refund sesuai kebijakan toko.</p>
+  </section>
+
+  <section class="section" id="tentang">
+    <h2>Tentang Kami</h2>
+    <p>Aromatica hadir untuk menghadirkan aroma berkualitas tinggi yang bisa diandalkan sepanjang hari. Kami percaya parfum bukan sekadar aroma, tapi cerminan jiwa.</p>
+  </section>
+
+  <section class="section" id="kontak">
+    <h2>Hubungi Kami</h2>
+    <div class="contact-form">
+      <form>
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>NIM: 22.11.5092 | Nama:  Christian Nery Vandella</p>
+    <p>NIM: 22.11.5086 | Nama:  Aditya Dwi Suryo Hardiyanto</p>
+    <p>NIM: 22.11.5117 | Nama:  Muhammad Imam Cahaya Putra</p>
+    <p>&copy; 2025 Aromatica. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
